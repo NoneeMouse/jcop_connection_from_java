@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QTTTool.jnlp">
+  <information>
+    <title>QTTTool</title>
+    <vendor>Sarabjeet Singh</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QTTTool.jar" size="21001" download="eager" />
+    <jar href="lib\JNACalypsoWrapper.jar" size="15941" download="eager" />
+    <jar href="lib\JNAMP65Wrapper.jar" size="22444" download="eager" />
+    <jar href="lib\JNAMPReaderWrapper.jar" size="54541" download="eager" />
+    <jar href="lib\JNASCRWrapper.jar" size="49187" download="eager" />
+    <jar href="lib\JNISCCommWrapper.jar" size="36664" download="eager" />
+    <jar href="lib\NutJCTerminal.jar" size="74363" download="eager" />
+    <jar href="lib\NutPlugin.jar" size="82636" download="eager" />
+    <jar href="lib\RC663JCTerminal.jar" size="22863" download="eager" />
+    <jar href="lib\bcpkix-jdk15on.jar" size="792825" download="eager" />
+    <jar href="lib\bcprov-ext-jdk15on.jar" size="4162369" download="eager" />
+    <jar href="lib\bcprov-jdk15on.jar" size="4092400" download="eager" />
+    <jar href="lib\commons-io.jar" size="208700" download="eager" />
+    <jar href="lib\eddsa.jar" size="62170" download="eager" />
+    <jar href="lib\jline.jar" size="213911" download="eager" />
+    <jar href="lib\jna.jar" size="914597" download="eager" />
+    <jar href="lib\milenage.jar" size="16908" download="eager" />
+    <jar href="lib\nxp-cli-lib.jar" size="130580" download="eager" />
+    <jar href="lib\nxp-crypto-lib.jar" size="103934" download="eager" />
+    <jar href="lib\nxp-euicc-tools.jar" size="76330" download="eager" />
+    <jar href="lib\nxp-gp-lib.jar" size="62221" download="eager" />
+    <jar href="lib\nxp-jrcp-lib.jar" size="117563" download="eager" />
+    <jar href="lib\nxp-jsbl-uai-api-external.jar" size="93472" download="eager" />
+    <jar href="lib\nxp-jsbl-utils.jar" size="52368" download="eager" />
+    <jar href="lib\nxp-uai.jar" size="3019" download="eager" />
+    <jar href="lib\nxp-utils.jar" size="34251" download="eager" />
+    <jar href="lib\offcard.jar" size="592836" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="qtttool.QTTTool"  name="QTTTool" />
+  <update check="always"/>
+</jnlp>
